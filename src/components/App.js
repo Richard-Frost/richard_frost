@@ -1,6 +1,9 @@
 import React from 'react';
 
 import Navbar from './Navbar';
+import ProjectLister from './ProjectLister'
+
+
 
 
 function App() {
@@ -8,6 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <Navbar />
+      <ProjectLister />
       </header>
     </div>
   );
