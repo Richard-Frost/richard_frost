@@ -2,6 +2,7 @@ import React from 'react';
 
 import Navbar from './Navbar';
 import ProjectLister from './ProjectLister'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
