@@ -1,15 +1,5 @@
-* {
-  box-sizing: border-box;
-}
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 
 .nav {
   color: white;
@@ -21,6 +11,46 @@ code {
     monospace;
 }
 
-.project img {
-  width: 200px
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.video-wrapper {
+  /* Telling our absolute positioned video to 
+  be relative to this element */
+  position: relative;
+
+  width: 400px;
+  height: 200px;
+
+  /* Will not allow the video to overflow the 
+  container */
+  overflow: hidden;
+
+  /* Centering the container's content vertically 
+  and horizontally */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  
+}
+
+.card{
+  background-color: rgba(187, 47, 47, .5);
+  
+}
+.card-text {
+  color: blue;
 }
