@@ -3,7 +3,10 @@
 
 .nav {
   color: white;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.75);;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 code {
@@ -46,11 +49,27 @@ video {
   z-index: -1;
   
 }
-
-.card{
-  background-color: rgba(187, 47, 47, .5);
-  
+.card {
+  background-color: pink;
 }
+
 .card-text {
-  color: blue;
+  color: white;
+}
+div.card {
+  background-color: rgba(157, 76, 118, 0.27);
+}
+button.btn.btn-primary {
+  background-color: black;
+  border-style: none;
+}
+#project-section {
+  margin-top: 1500px;
+}
+#my-world {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  height: auto;
 }

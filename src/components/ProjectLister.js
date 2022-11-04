@@ -10,21 +10,19 @@ import Col from 'react-bootstrap/Col';
 const ProjectLister = () => {
     return(
          
-        <div>
+        <div id="project-section">
             {projects.map((project) => { 
                 return(
                 <div>
-                    <Card className='card-transparent'>
-                    <Card.Img variant="top" src={project.image} />
-                    <Card.Body className='custom-card'>
-                      <Card.Title>{project.name}</Card.Title>
-                      <Card.Text>
-                        {project.about}
-                      </Card.Text>
-                      <Button variant="primary">Go somewhere</Button>
+                    <Card>
+                      <Card.Img variant="top" src={project.image} />
+                      <Card.Body>
+                        <Card.Title>{project.name}</Card.Title>
+                        <Card.Text>{project.about}</Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
                       <br></br>
                       <a href={project.link}>Github</a><br />
-                    </Card.Body>
+                      </Card.Body>
                     </Card>
                     <br/>
                   
