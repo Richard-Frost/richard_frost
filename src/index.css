@@ -4,7 +4,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   position: fixed;
 }
 
@@ -127,7 +127,7 @@ button.btn.btn-primary {
 }
 
 .nav li a {
-  font-size: 32pt;
+  font-size: 15pt;
   display: block;
   color: white;
   text-align: center;
