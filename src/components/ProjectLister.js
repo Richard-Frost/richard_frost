@@ -9,14 +9,15 @@ import Col from 'react-bootstrap/Col';
 
 const ProjectLister = () => {
     return(
-         
-        <div id="project-section">
-          <Container>
-            <Row>
+        <div className="projects">
+          <div className="section-title">
+            <h1>Projects</h1>
+          </div>
+            
+
               {projects.map((project) => { 
                 return(
-                  
-                    <Col>
+                  <div>
                       <Card>
                         <Card.Img variant="top" src={project.image} />
                         <Card.Body>
@@ -27,11 +28,9 @@ const ProjectLister = () => {
                           <a href={project.link}>Github</a>
                         </Card.Body>
                       </Card>
-                    </Col>
+                    </div>
               )    
               })}
-            </Row>
-          </Container>
         </div>
         
         
