@@ -62,7 +62,18 @@ button.btn.btn-primary {
 .icons {
   margin-left: 97%;  
 }
-
+.bottom-icons {
+  position: fixed;
+  left: 70px;
+  bottom: 70px;
+  background-color: rgba(245, 148, 37, 0.721);
+  padding: 15px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: white;
+  width: 100px;
+  height: 150px;
+}
 .projects {
   color: white;
   margin-top: 400px;

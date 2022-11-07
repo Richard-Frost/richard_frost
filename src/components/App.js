@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 
 import Router from './Router';
 import Navbar from './Navbar';
+import BootNav from './BootNav';
 import ProjectLister from './ProjectLister';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,6 +11,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import pic from '../images/my_world2.png'
 
+import { SocialIcon } from 'react-social-icons';
 
 function useWindowSize() {
   const [size, setSize] = useState([window.innerHeight, window.innerWidth]);  
@@ -44,6 +46,10 @@ function App() {
         <img src={pic}></img>
       </div>
       <Router/>
+      <div className="bottom-icons">
+        <SocialIcon network="linkedin" url= "https://www.linkedin.com/in/richard-frost-dev/" />
+        <SocialIcon network="github" url= "https://github.com/Richard-Frost" />
+      </div>
     </div>
   );
 }
