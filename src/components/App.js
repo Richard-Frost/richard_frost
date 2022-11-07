@@ -43,10 +43,7 @@ function App() {
       <div className={width > 700 ? "bottom" : "top"}>
         <img src={pic}></img>
       </div>
-      <div id="navlinker">
-          <a href="/about">About</a>
-          <a href="/projects">Projects</a>
-      </div>
+  
       <Router/>
       <div className="bottom-icons">
         <SocialIcon network="linkedin" url= "https://www.linkedin.com/in/richard-frost-dev/" />
