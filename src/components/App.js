@@ -7,8 +7,7 @@ import ProjectLister from './ProjectLister';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 import pic from '../images/my_world2.png'
 
 import { SocialIcon } from 'react-social-icons';
@@ -34,7 +33,6 @@ function App() {
     <div>
       <header>
         <Navbar />
-        
       </header>
       <div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="myVideo">
@@ -44,6 +42,10 @@ function App() {
 
       <div className={width > 700 ? "bottom" : "top"}>
         <img src={pic}></img>
+      </div>
+      <div id="navlinker">
+          <a href="/about">About</a>
+          <a href="/projects">Projects</a>
       </div>
       <Router/>
       <div className="bottom-icons">

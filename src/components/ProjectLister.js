@@ -13,8 +13,6 @@ const ProjectLister = () => {
           <div className="section-title">
             <h1>Projects</h1>
           </div>
-            
-
               {projects.map((project) => { 
                 return(
                   <div>
@@ -23,7 +21,6 @@ const ProjectLister = () => {
                         <Card.Body>
                           <Card.Title>{project.name}</Card.Title>
                           <Card.Text>{project.about}</Card.Text>
-                          <Button variant="primary">Go somewhere</Button>
                           <br></br>
                           <a href={project.link}>Github</a>
                         </Card.Body>
