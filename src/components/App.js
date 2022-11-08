@@ -29,8 +29,10 @@ function App() {
   const [height, width] = useWindowSize();
   return (
     <div>
+      
       <header>
-        <Navbar />
+      <BootNav/>
+        
       </header>
      
       <div>

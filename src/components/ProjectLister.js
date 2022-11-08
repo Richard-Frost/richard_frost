@@ -19,19 +19,21 @@ const ProjectLister = () => {
               {projects.map((project) => { 
                 return(
                   <Col>
-                  <div id="center-cards">
+                    <div id="center-cards">
                       <Card style={{ width: '20rem'}}>
                         <Card.Img variant="top" src={project.image} />
                         <Card.Body>
                           <Card.Title>{project.name}</Card.Title>
-                          <Card.Text>{project.about}</Card.Text>
-                          <p>{project.tech}</p>
+                          <Card.Text>
+                            {project.about}<br/>
+                            <br/>
+                            {project.tech}
+                          </Card.Text>
                           <a href={project.link}>Github</a>
                         </Card.Body>
-                      </Card>
-                      
+                      </Card> 
                     </div>
-                    </Col>
+                  </Col>
               )    
               })}
             </Row>
