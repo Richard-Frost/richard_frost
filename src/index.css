@@ -120,14 +120,14 @@ button.btn.btn-primary {
 }
 
 #thumbnail {
-  width: 200px;
+  width: 150px;
   height: auto;
   margin: 20px;
 }
 
 #bio h5{
   padding: 50px;
-  font-size: 40px;
+  font-size: 20px;
 }
 #linkedin {
   display: flex;
@@ -164,7 +164,5 @@ button.btn.btn-primary {
   margin-left: 20px;
   margin-right: 20px;
 }
-.container{
- 
-}
+
 
