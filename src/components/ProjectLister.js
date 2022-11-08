@@ -20,7 +20,7 @@ const ProjectLister = () => {
                 return(
                   <Col>
                   <div id="center-cards">
-                      <Card style={{ width: '40rem'}}>
+                      <Card style={{ width: '20rem'}}>
                         <Card.Img variant="top" src={project.image} />
                         <Card.Body>
                           <Card.Title>{project.name}</Card.Title>

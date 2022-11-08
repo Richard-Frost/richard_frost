@@ -15,6 +15,7 @@ const About = () => {
                 <h5> I love code, coffee, music, photography and most of all, being Autumn's dad. Please visit my Linkedin page for more info! </h5>
                 <div id="linkedin">
                     <SocialIcon network="linkedin" url= "https://www.linkedin.com/in/richard-frost-dev/" />
+                    <SocialIcon network="github" url= "https://github.com/Richard-Frost" />
                 </div>
             </div>
         </div>

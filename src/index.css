@@ -8,6 +8,7 @@
   width: 100%;
   padding: 10px;
   position: fixed;
+  z-index: 3;
 }
 
 .nav h1 {
@@ -25,15 +26,15 @@ video {
   left: 0;
 }
 .card {
-  min-height: 900px;
+  min-height: 400px;
 }
 .card-title.h5 {
   color: white;
-  font-size: 30px;
+  font-size: 20px;
 }
 .card-text {
   color: white;
-  font-size:30px;
+  font-size:14px;
 }
 
 div.card {
@@ -77,6 +78,14 @@ button.btn.btn-primary {
   z-index: -1;
 }
 
+.top img {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
 .icons {
   margin-left: 97%;  
 }
@@ -95,7 +104,7 @@ button.btn.btn-primary {
   background-color: rgba(0, 0, 0, 0.86);
   border-style: solid;
   border-color: rgba(227, 227, 227, 0.2);
-  height: 90vh;
+  min-height: 90vh;
   margin: 0 auto;
 }
 #center-cards {
@@ -104,7 +113,7 @@ button.btn.btn-primary {
   justify-content: center;
 }
 .projects h1 {
-  padding: 25px;
+  padding: 5px;
 }
 .section-title { 
   background-color: rgba(82, 83, 91, 0.5);

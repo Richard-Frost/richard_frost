@@ -10,8 +10,6 @@ import Container from 'react-bootstrap/Container';
 
 import pic from '../images/my_world2.png'
 
-import { SocialIcon } from 'react-social-icons';
-
 function useWindowSize() {
   const [size, setSize] = useState([window.innerHeight, window.innerWidth]);  
   useEffect(() => {
@@ -46,11 +44,6 @@ function App() {
       </div>
   
       <Router/>
-      <div className="bottom-icons">
-        <SocialIcon network="linkedin" url= "https://www.linkedin.com/in/richard-frost-dev/" />
-        <SocialIcon network="github" url= "https://github.com/Richard-Frost" />
-      </div>
-      
     </div>
   );
 }

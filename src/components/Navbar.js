@@ -1,4 +1,5 @@
 import React from 'react'
+import { SocialIcon } from 'react-social-icons';
 
 const Navbar = () => {
     return(
@@ -12,5 +13,5 @@ const Navbar = () => {
             </ul>
         </div>
     )
-}
+} 
 export default Navbar;
