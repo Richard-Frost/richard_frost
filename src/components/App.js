@@ -34,6 +34,7 @@ function App() {
       <header>
         <Navbar />
       </header>
+     
       <div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="myVideo">
           <source src="images/video3.mp4" type="video/mp4"/>
@@ -49,6 +50,7 @@ function App() {
         <SocialIcon network="linkedin" url= "https://www.linkedin.com/in/richard-frost-dev/" />
         <SocialIcon network="github" url= "https://github.com/Richard-Frost" />
       </div>
+      
     </div>
   );
 }

@@ -5,9 +5,10 @@ import Container from 'react-bootstrap/Container';
 const ProjectContainer = () => {
     return(
         <div>
-        <Container>
-            <ProjectLister/>
-        </Container>
+           <Container fluid>
+             <ProjectLister/>
+            </Container>
+          
         </div>)
 }
 export default ProjectContainer;
