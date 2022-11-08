@@ -2,7 +2,7 @@ const projects = [
     {
       id: 1,
       name: "Autumn's Playdate",
-      about: "Soclial App designed to assist parents in planning play dates",
+      about: "Social App designed to assist parents in planning play dates",
       tech: "Ruby, Sinatra, HTML, CSS",
       link: "https://github.com/Richard-Frost/autumns-play-date",
       image: "images/ap1.jpg",

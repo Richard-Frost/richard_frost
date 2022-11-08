@@ -177,6 +177,8 @@ button.btn.btn-primary {
 .navbar-default {
   background-color: rgba(0, 0, 0, 0.86);
   color: white !important;
+  border-color: rgb(16, 122, 220) !important;
+  border-style: solid !important;
 }
 
 .navbar-brand {
