@@ -6,7 +6,7 @@ import me from '../images/rf.jpg'
 const About = () => {
     return(
         <Container>
-        <div className="projects">
+        <div className="about">
             <div className="section-title">
                 <h1>Hi I'm Richard Frost</h1>
             </div>

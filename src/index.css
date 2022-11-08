@@ -164,5 +164,13 @@ button.btn.btn-primary {
   margin-left: 20px;
   margin-right: 20px;
 }
-
+.about {
+color: white;
+  margin-top: 100px !important;
+  background-color: rgba(0, 0, 0, 0.86);
+  border-style: solid;
+  border-color: rgba(227, 227, 227, 0.2);
+  min-height: 70vh;
+  margin: 0 auto;
+}
 
