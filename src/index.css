@@ -179,6 +179,7 @@ button.btn.btn-primary {
   color: white !important;
   border-color: rgb(16, 122, 220) !important;
   border-style: solid !important;
+  border-top-width: 4px !important;
 }
 
 .navbar-brand {
