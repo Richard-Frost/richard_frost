@@ -5,7 +5,7 @@ const projects = [
       about: "Social App designed to assist parents in planning play dates",
       tech: "Ruby, Sinatra, HTML, CSS",
       link: "https://github.com/Richard-Frost/autumns-play-date",
-      image: "images/ap1.jpg",
+      image: "images/apd.png",
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ const projects = [
       about: "Family-centric Social App designed to help families connect with other like-minded families in their geographical location.",
       tech: "Ruby on Rails, HTML, CSS",
       link: "https://github.com/Richard-Frost/that-family-app",
-      image: "images/tfa.jpg",
+      image: "images/tfa.png",
     },
     {
       id: 3,
