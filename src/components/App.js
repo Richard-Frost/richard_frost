@@ -4,6 +4,7 @@ import Router from './Router';
 import Navbar from './Navbar';
 import BootNav from './BootNav';
 import ProjectLister from './ProjectLister';
+import MyWorld from './MyWorld'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
@@ -29,22 +30,10 @@ function App() {
   const [height, width] = useWindowSize();
   return (
     <div>
-      
       <header>
-      <BootNav/>
-        
+        <BootNav/>
       </header>
-     
-      <div>
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="myVideo">
-          <source src="images/video3.mp4" type="video/mp4"/>
-        </video>
-      </div>
-
-      <div className={width > 700 ? "bottom" : "top"}>
-        <img src={pic}></img>
-      </div>
-  
+      <MyWorld/>
       <Router/>
     </div>
   );
